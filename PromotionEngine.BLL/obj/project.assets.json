@@ -26,6 +26,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "PromotionEngine.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "PromotionEngine.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PromotionEngine.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionEngine.DataLayer.dll": {}
+        }
+      },
       "PromotionEngine.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -183,6 +196,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "PromotionEngine.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../PromotionEngine.DataLayer/PromotionEngine.DataLayer.csproj",
+      "msbuildProject": "../PromotionEngine.DataLayer/PromotionEngine.DataLayer.csproj"
+    },
     "PromotionEngine.Entity/1.0.0": {
       "type": "project",
       "path": "../PromotionEngine.Entity/PromotionEngine.Entity.csproj",
@@ -192,6 +210,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "PromotionEngine.DataLayer >= 1.0.0",
       "PromotionEngine.Entity >= 1.0.0"
     ]
   },
@@ -221,6 +240,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.DataLayer\\PromotionEngine.DataLayer.csproj": {
+              "projectPath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.DataLayer\\PromotionEngine.DataLayer.csproj"
+            },
             "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Entity\\PromotionEngine.Entity.csproj": {
               "projectPath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Entity\\PromotionEngine.Entity.csproj"
             }

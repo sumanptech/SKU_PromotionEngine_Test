@@ -1,7 +1,9 @@
-﻿using System;
+﻿using PromotionEngine.HelperModule;
+using System;
 using System.IO;
 using System.Reflection;
-using PromotionEngine.HelperModule;
+
+
 namespace PromotionEngine.Logging
 {
     public class LogInfo

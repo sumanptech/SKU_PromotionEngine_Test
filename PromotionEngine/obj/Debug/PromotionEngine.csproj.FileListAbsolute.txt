@@ -7,3 +7,4 @@ E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.cspr
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.csproj.CopyComplete
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.exe
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.csprojAssemblyReference.cache

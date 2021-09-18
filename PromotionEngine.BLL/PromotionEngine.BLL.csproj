@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PromotionEngine.DataLayer\PromotionEngine.DataLayer.csproj" />
     <ProjectReference Include="..\PromotionEngine.Entity\PromotionEngine.Entity.csproj" />
   </ItemGroup>
 
