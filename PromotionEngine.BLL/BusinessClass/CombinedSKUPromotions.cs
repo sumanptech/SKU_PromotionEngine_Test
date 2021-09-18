@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using PromotionEngine.Entity;
 
-namespace PromotionEngine.BLL.BusinessClass
+namespace PromotionEngine.BLL
 {
-   public  class CombinedSKUPromotions
+   public  class CombinedSKUPromotions: ISKUPromotions
     {
         /// <summary>
         ///  Check what promotion is applicable on cart

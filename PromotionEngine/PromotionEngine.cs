@@ -31,7 +31,7 @@ namespace PromotionEngine
             Console.WriteLine("\n Please Provide Your Input");
             objCart = ReadSKUInput();
             Console.WriteLine("\n Applying Promotions...");
-            objPromotion = ApplyPromotions(objCart);
+            objPromotion = ApplyPromotions(objCart);           
             Console.ReadKey();
         }
 
@@ -84,5 +84,6 @@ namespace PromotionEngine
             }
             return objPromotion;
         }
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using PromotionEngine.Entity;
+using PromotionEngine.Logging;
 
 namespace PromotionEngine.BLL
 {
@@ -17,8 +18,32 @@ namespace PromotionEngine.BLL
         /// <returns></returns>
         public PromotionApplied ApplyPromotionsOnSKUs(List<SKUCartEntity> objCart, List<PromotionTypeEntity> promotionList)
         {
-
-            throw new NotImplementedException();
+            PromotionApplied promoApplied = new PromotionApplied();
+            PromotionTypeEntity objAppliedPromotion = new PromotionTypeEntity();
+            List<ISKUPromotions> promotionTypes = new List<ISKUPromotions>();
+            promotionTypes.Add(new IndividualSKUPromotions());           
+            try
+            {
+                foreach (SKUCartEntity item in objCart)
+                {
+                    if (item.SKU_Unit > 0)
+                    {
+                        foreach (var promotion in promotionTypes)
+                        {                            
+                                item.SKU_FinalPrice = promotion.FetchSKUPrice(objCart, objAppliedPromotion);
+                                item.HasOffer = true;
+                                promoApplied.CheckoutPrice += item.SKU_FinalPrice;
+                              
+                        }
+                    }
+                }
+                promoApplied.CartCheckout = objCart;
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogMessage("Error Applying Promotion in #ApplyPromotionsOnSKUs#:" + ex.Message);
+            }
+            return promoApplied;
         }
     }
 }
