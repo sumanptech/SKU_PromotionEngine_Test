@@ -3,7 +3,7 @@
 /// <summary>
 /// Entity for Product Cart
 /// </summary>
-namespace SKU.PromotionEngine.Entity
+namespace PromotionEngine.Entity
 {
    public class SKUCartEntity
     {

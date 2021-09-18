@@ -2,7 +2,7 @@
 /// <summary>
 /// Entity for SKUs
 /// </summary>
-namespace SKU.PromotionEngine.Entity
+namespace PromotionEngine.Entity
 {
     public class SKUEntity
     {

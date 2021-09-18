@@ -1,3 +1,5 @@
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.csprojAssemblyReference.cache
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.csproj.CoreCompileInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -5,10 +7,12 @@ E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Test.PromotionE
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Test.PromotionEngine.pdb
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.Entity.dll
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.Entity.pdb
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.csprojAssemblyReference.cache
-E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.csproj.CoreCompileInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.csproj.CopyComplete
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.dll
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.pdb
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.BLL.dll
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.BLL.pdb

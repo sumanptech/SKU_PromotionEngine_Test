@@ -1,7 +1,6 @@
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.deps.json
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.pdb
-E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.csprojAssemblyReference.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.AssemblyInfoInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.AssemblyInfo.cs
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.csproj.CoreCompileInputs.cache

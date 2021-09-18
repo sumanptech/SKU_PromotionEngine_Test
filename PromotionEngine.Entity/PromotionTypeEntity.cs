@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Entity for Promotion Types
 /// </summary>
-namespace SKU.PromotionEngine.Entity
+namespace PromotionEngine.Entity
 {
     public class PromotionTypeEntity
     {

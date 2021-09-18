@@ -1,0 +1,8 @@
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.deps.json
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.AssemblyInfoInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.AssemblyInfo.cs
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.csproj.CoreCompileInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\netstandard2.0\PromotionEngine.ExceptionAndLogging.pdb

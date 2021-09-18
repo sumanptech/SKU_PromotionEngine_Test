@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kMDhUpDOmIfCi/Qosq3FIa9g1s4BlZvZGqP+Su3R1jRHDO2gP+g2Rzdczxs+QaXuZsw8Pb8YWWfW64uLIKsS+Q==",
+  "success": true,
+  "projectFilePath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.ExceptionAndLogging\\PromotionEngine.ExceptionAndLogging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pande\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pande\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
