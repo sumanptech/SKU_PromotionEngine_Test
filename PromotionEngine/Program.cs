@@ -15,7 +15,11 @@ namespace PromotionEngine
             Console.WriteLine("#### Welcome to Promotion Engine, We need SKU Units From You, to Calculate Total Order Value ####");
             PromotionEngine objEngine = new PromotionEngine();
             objEngine.StartPromotionEngine();
-            Console.ReadKey();
+            Console.WriteLine("\n Thank You For Using Promotion Engine, Please Press 'ENTER' Key to Exit");
+
+            LogInfo.LogMessage("***********Ending Promotion Engine************");
+
+            Console.ReadLine();
         }
     }
 }
