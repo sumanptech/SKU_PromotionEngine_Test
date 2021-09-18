@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PromotionEngine.BLL;
 using PromotionEngine.Entity;
-using PromotionEngine.BLL;
 using PromotionEngine.Logging;
+using System;
+using System.Collections.Generic;
 
 namespace PromotionEngine
 {

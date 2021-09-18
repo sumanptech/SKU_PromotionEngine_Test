@@ -1,11 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using PromotionEngine.Entity;
+using System.Linq;
+using PromotionEngine.HelperModule;
+using PromotionEngine.Logging;
 
 namespace PromotionEngine.BLL
 {
    public  class CombinedSKUPromotions: ISKUPromotions
     {
+
+        private PromotionTypeEntity objPromotion;
+        private SKUCartEntity objSKU;
+        List<SKUCartEntity> productCheckouts;
         /// <summary>
         ///  Check what promotion is applicable on cart
         /// </summary>
@@ -24,9 +31,25 @@ namespace PromotionEngine.BLL
         /// <param name="objCart">List of SKUs in Cart</param>
         /// <param name="objReturnProduct">Promotion Type specifc to Input</param>
         /// <returns></returns>
-        public bool IsApplicable(SKUCartEntity objCart, List<PromotionTypeEntity> promotionList, out PromotionTypeEntity objReturnProduct)
+        public bool IsApplicable(SKUCartEntity objLocalSKU, List<PromotionTypeEntity> objPromotionTypes, out PromotionTypeEntity objReturnSKU)
         {
-            throw new NotImplementedException();
+            objReturnSKU = new PromotionTypeEntity();
+            try
+            {
+                objSKU = objLocalSKU;
+                objPromotion = objPromotionTypes.Where(x => x.SKU_ID.Split(';').Contains(objLocalSKU.SKU_ID)).FirstOrDefault();
+                if (objPromotion != null && !objLocalSKU.IsValidated && objPromotion.Promotion_Type == EngineHelper.CombinedPromotions)
+                {
+                    objReturnSKU = objPromotion;
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogMessage("Error while executing Combined Promotions #IsApplicable# :" + ex.Message);
+            }
+            objReturnSKU = objPromotion;
+            return false;
         }
     }
 }

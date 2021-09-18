@@ -6,3 +6,4 @@ E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.HelperModule\obj\Debug\netstan
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.HelperModule\obj\Debug\netstandard2.0\PromotionEngine.HelperModule.csproj.CoreCompileInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.HelperModule\obj\Debug\netstandard2.0\PromotionEngine.HelperModule.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.HelperModule\obj\Debug\netstandard2.0\PromotionEngine.HelperModule.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.HelperModule\obj\Debug\netstandard2.0\PromotionEngine.HelperModule.csprojAssemblyReference.cache

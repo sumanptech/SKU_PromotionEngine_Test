@@ -22,7 +22,7 @@ namespace PromotionEngine.BLL
             PromotionTypeEntity objAppliedPromotion = new PromotionTypeEntity();
             List<ISKUPromotions> promotionTypes = new List<ISKUPromotions>();
             promotionTypes.Add(new IndividualSKUPromotions());
-            
+            promotionTypes.Add(new CombinedSKUPromotions());
             try
             {
                 foreach (SKUCartEntity item in objCart)
