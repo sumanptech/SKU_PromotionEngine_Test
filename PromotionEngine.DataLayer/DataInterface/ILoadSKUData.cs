@@ -6,7 +6,7 @@ namespace PromotionEngine.DataLayer
     /// <summary>
     /// Interface declaring operation to load SKU and Promotion Data, from JSON/DataLayer
     /// </summary>
-    interface ILoadSKUData
+   public interface ILoadSKUData
     {
         /// <summary>
         /// Reads all available SKUs from data source

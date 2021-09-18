@@ -11,7 +11,7 @@ namespace PromotionEngine.DataLayer
     /// <summary>
     /// Class defining operation To load SKU and Promotion Data from JSON/DataLayer
     /// </summary>
-    class LoadSKUData : ILoadSKUData
+    public class LoadSKUData : ILoadSKUData
     {
         IConfiguration objLoadData;
         public LoadSKUData()

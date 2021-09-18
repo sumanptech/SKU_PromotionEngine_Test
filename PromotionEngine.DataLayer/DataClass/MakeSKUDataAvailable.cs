@@ -5,7 +5,7 @@ namespace PromotionEngine.DataLayer.DataClass
 {
     public class MakeSKUDataAvailable
     {
-        LoadSKUData objData=null;
+        LoadSKUData objData;
 
         /// <summary>
         /// default constructor

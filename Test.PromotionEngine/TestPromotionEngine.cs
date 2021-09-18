@@ -8,8 +8,8 @@ namespace Test.PromotionEngine
     [TestClass]
     public class TestPromotionEngine
     {
-        List<SKUCartEntity> objCart = null;
-        IProcessSKUCart objSKUs = null;
+        List<SKUCartEntity> objCart;
+        IProcessSKUCart objSKUs;
         // objects instantiation
         List<PromotionTypeEntity> promotionList =
             new List<PromotionTypeEntity> {
