@@ -31,11 +31,12 @@ namespace PromotionEngine
             Console.WriteLine("\n Please Provide Your Input");
             objCart = ReadSKUInput();
             Console.WriteLine("\n Applying Promotions...");
+            objPromotion = ApplyPromotions(objCart);
             Console.ReadKey();
         }
 
         /// <summary>
-        /// 
+        /// Read User Input
         /// </summary>
         /// <returns></returns>
         public List<SKUCartEntity> ReadSKUInput()
@@ -58,10 +59,30 @@ namespace PromotionEngine
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error while Reading User Input, Please Reach to Administrator");
+                Console.WriteLine("Error while reading user input, Please contact administrator");
                 LogInfo.LogMessage("Error while reading user Input in #ReadSKUInput#: " + ex.Message);
             }
             return objCart;
+        }
+
+        /// <summary>
+        /// Check and Apply all promotions on given SKUs
+        /// </summary>
+        /// <returns>returns All SKUs and checkout price, after applying promotions</returns>
+        public PromotionApplied ApplyPromotions(List<SKUCartEntity> objCart)
+        {
+            objPromotion = new PromotionApplied();
+            objSKUs = new ProcessSKUCart();
+            try
+            {
+                objPromotion = objSKUs.ApplyPromotionsOnSKUs(objCart, objData.GetAvailablePromotionTypes());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error while Applying Promotions, Please Reach to Administrator");
+                LogInfo.LogMessage("Error while applying promotions in #ApplyPromotions#: " + ex.Message);
+            }
+            return objPromotion;
         }
     }
 }
