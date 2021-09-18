@@ -1,0 +1,9 @@
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.exe.config
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.Logging.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.csproj.CoreCompileInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.csproj.CopyComplete
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.pdb

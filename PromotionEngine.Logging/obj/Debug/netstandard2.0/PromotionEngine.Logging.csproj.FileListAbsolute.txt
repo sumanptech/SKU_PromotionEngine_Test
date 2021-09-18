@@ -1,0 +1,12 @@
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\bin\Debug\netstandard2.0\PromotionEngine.Logging.deps.json
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\bin\Debug\netstandard2.0\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\bin\Debug\netstandard2.0\PromotionEngine.Logging.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.csprojAssemblyReference.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.AssemblyInfoInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.AssemblyInfo.cs
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.csproj.CoreCompileInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.csproj.CopyComplete
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Logging\obj\Debug\netstandard2.0\PromotionEngine.Logging.pdb

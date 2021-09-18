@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89EADEFD-C743-475D-BD7E-7847DE765EA8}</ProjectGuid>
+    <ProjectGuid>{C9C10750-22A9-4341-BAF1-FC8BFFFD6A0B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PromotionEngine.Console</RootNamespace>
-    <AssemblyName>PromotionEngine.Console</AssemblyName>
+    <RootNamespace>PromotionEngine</RootNamespace>
+    <AssemblyName>PromotionEngine</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,17 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="PromotionEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\PromotionEngine.Entity\PromotionEngine.Entity.csproj">
-      <Project>{08b2f2ab-24a3-4895-b53a-7e5da5b4210e}</Project>
-      <Name>PromotionEngine.Entity</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PromotionEngine.Logging\PromotionEngine.Logging.csproj">
       <Project>{cbdf5b6a-1d00-4258-a571-21c93af668a9}</Project>
       <Name>PromotionEngine.Logging</Name>
