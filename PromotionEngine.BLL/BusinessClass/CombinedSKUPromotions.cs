@@ -22,7 +22,55 @@ namespace PromotionEngine.BLL
         /// <returns>returns 'true' if promotion is applicable</returns>
         public double FetchSKUPrice(List<SKUCartEntity> objCart, PromotionTypeEntity objReturnProduct)
         {
-            throw new NotImplementedException();
+            productCheckouts = new List<SKUCartEntity>();
+
+            double finalPrice = 0;
+            try
+            {
+                string[] str = objReturnProduct.SKU_ID.Split(';').ToArray();
+                foreach (SKUCartEntity item in objCart)
+                {
+                    if (str.Contains(item.SKU_ID))
+                    {
+                        productCheckouts.Add(item);
+                        item.IsValidated = true;
+                    }
+                }
+
+                int quantity_first = 0;
+                int quantity_second = 0;
+                if (productCheckouts.Count > 1)
+                {
+                    quantity_first = productCheckouts[0].SKU_Unit;
+                    quantity_second = productCheckouts[1].SKU_Unit;
+                }
+
+                if (quantity_first == 0 || quantity_second == 0)
+                {
+                    return objSKU.SKU_DefaultPrice;
+
+                }
+
+                if (quantity_first == quantity_second)
+                {
+                    finalPrice = objReturnProduct.Promotion_Price * quantity_first;
+                }
+                else if (quantity_first > quantity_second)
+                {
+                    int additionalItems = quantity_first - quantity_second;
+                    finalPrice = (objSKU.SKU_DefaultPrice * additionalItems) + (objReturnProduct.Promotion_Price * quantity_second);
+                }
+                else if (quantity_first < quantity_second)
+                {
+                    int additionalItems = quantity_second - quantity_first;
+                    finalPrice = (objSKU.SKU_DefaultPrice * additionalItems) + (objReturnProduct.Promotion_Price * quantity_first);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogMessage("Error while executing  Combined Promotions #FetchSKUPrice# :" + ex.Message);
+            }
+            return finalPrice;
         }
 
         /// <summary>
