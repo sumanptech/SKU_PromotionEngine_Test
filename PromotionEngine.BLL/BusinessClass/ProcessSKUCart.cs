@@ -21,7 +21,7 @@ namespace PromotionEngine.BLL
             PromotionApplied promoApplied = new PromotionApplied();
             PromotionTypeEntity objAppliedPromotion = new PromotionTypeEntity();
             List<ISKUPromotions> promotionTypes = new List<ISKUPromotions>();
-            promotionTypes.Add(new IndividualSKUPromotions());           
+            promotionTypes.Add(new IndividualSKUPromotions());            
             try
             {
                 foreach (SKUCartEntity item in objCart)
@@ -29,11 +29,14 @@ namespace PromotionEngine.BLL
                     if (item.SKU_Unit > 0)
                     {
                         foreach (var promotion in promotionTypes)
-                        {                            
+                        {
+                            if (promotion.IsApplicable(item, promotionList, out objAppliedPromotion))
+                            {
                                 item.SKU_FinalPrice = promotion.FetchSKUPrice(objCart, objAppliedPromotion);
                                 item.HasOffer = true;
                                 promoApplied.CheckoutPrice += item.SKU_FinalPrice;
-                              
+                                break;
+                            }
                         }
                     }
                 }
