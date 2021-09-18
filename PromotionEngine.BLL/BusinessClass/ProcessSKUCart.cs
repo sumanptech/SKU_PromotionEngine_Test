@@ -21,7 +21,8 @@ namespace PromotionEngine.BLL
             PromotionApplied promoApplied = new PromotionApplied();
             PromotionTypeEntity objAppliedPromotion = new PromotionTypeEntity();
             List<ISKUPromotions> promotionTypes = new List<ISKUPromotions>();
-            promotionTypes.Add(new IndividualSKUPromotions());            
+            promotionTypes.Add(new IndividualSKUPromotions());
+            
             try
             {
                 foreach (SKUCartEntity item in objCart)

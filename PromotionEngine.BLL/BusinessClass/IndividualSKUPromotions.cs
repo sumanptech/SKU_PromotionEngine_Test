@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using PromotionEngine.Entity;
 using PromotionEngine.Logging;
+using System.Linq;
+using PromotionEngine.HelperModule;
 
 namespace PromotionEngine.BLL
 {
@@ -48,9 +50,26 @@ namespace PromotionEngine.BLL
         /// <param name="objCart">List of SKUs in Cart</param>
         /// <param name="objReturnProduct">Promotion Type specific to Input</param>
         /// <returns></returns>
-        public bool IsApplicable(SKUCartEntity objCart, List<PromotionTypeEntity> promotionList, out PromotionTypeEntity objReturnProduct)
+        public bool IsApplicable(SKUCartEntity objLocalSKU, List<PromotionTypeEntity> lstPromotionTypes, out PromotionTypeEntity objReturnSKU)
         {
-            throw new NotImplementedException();
+            objAppliedPromotion = new PromotionTypeEntity();
+            try
+            {
+                objSKU = objLocalSKU;
+                objAppliedPromotion = lstPromotionTypes.Where(x => x.SKU_ID == objLocalSKU.SKU_ID).FirstOrDefault();
+                if (objAppliedPromotion != null && objAppliedPromotion.Promotion_Type == EngineHelper.IndividualPromotions)
+                {
+                    objLocalSKU.IsValidated = true;
+                    objReturnSKU = objAppliedPromotion;
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogMessage("Error while executing Individual Promotions #IsApplicable# :" + ex.Message);
+            }
+            objReturnSKU = objAppliedPromotion;
+            return false;
         }
     }
 }
