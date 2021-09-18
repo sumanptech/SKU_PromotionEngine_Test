@@ -16,3 +16,7 @@ E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionE
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\obj\Debug\Test.PromotionEngine.pdb
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.BLL.dll
 E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.BLL.pdb
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.DataLayer.dll
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.DataLayer.pdb
+E:\Maersk_Sep2021\PromotionEngine\Test.PromotionEngine\bin\Debug\PromotionEngine.Logging.pdb
