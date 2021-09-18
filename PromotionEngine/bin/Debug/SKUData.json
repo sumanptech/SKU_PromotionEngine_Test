@@ -1,0 +1,49 @@
+////For the sake of this solution completeness, data is in JASON data format, 
+//// in real environment this will be Data from DataBase and any other backend DataStore
+//// SKU has available SKUs, any new SKUs needs to be added here
+//// Promotion_Types: available promotion types, new promotions types to be added here
+
+{
+  "SKU": [
+    {
+      "SKU_ID": "A",
+      "SKU_UnitPrice": 50
+    },
+    {
+      "SKU_ID": "B",
+      "SKU_UnitPrice": 30
+    },
+    {
+      "SKU_ID": "C",
+      "SKU_UnitPrice": 20
+    },
+    {
+      "SKU_ID": "D",
+      "SKU_UnitPrice": 15
+    }
+  ],
+  "Promotion_Types": [
+    {
+      "Promotion_Id": 1,
+      "Promotion_Type": "Individual",
+      "Promotion_Price": 130,
+      "SKU_ID": "A",
+      "SKU_Unit": 3
+    },
+    {
+      "Promotion_Id": 2,
+      "Promotion_Type": "Individual",
+      "Promotion_Price": 45,
+      "SKU_ID": "B",
+      "SKU_Unit": 2
+
+    },
+    {
+      "Promotion_Id": 3,
+      "Promotion_Type": "Combined",
+      "Promotion_Price": 30,
+      "SKU_ID": "C;D",
+      "SKU_Unit": 2
+    }
+  ]
+}
