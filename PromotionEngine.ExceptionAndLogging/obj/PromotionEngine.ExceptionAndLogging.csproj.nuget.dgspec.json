@@ -26,6 +26,65 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "projectReferences": {
+              "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\PromotionEngine.Helper.csproj": {
+                "projectPath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\PromotionEngine.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\PromotionEngine.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\PromotionEngine.Helper.csproj",
+        "projectName": "PromotionEngine.Helper",
+        "projectPath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\PromotionEngine.Helper.csproj",
+        "packagesPath": "C:\\Users\\pande\\.nuget\\packages\\",
+        "outputPath": "E:\\Maersk_Sep2021\\PromotionEngine\\PromotionEngine.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },

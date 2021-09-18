@@ -17,8 +17,8 @@ namespace PromotionEngine.BLL
         /// <returns></returns>
         public PromotionApplied ApplyPromotionsOnSKUs(List<SKUCartEntity> objCart, List<PromotionTypeEntity> promotionList)
         {
+
             throw new NotImplementedException();
-            
         }
     }
 }

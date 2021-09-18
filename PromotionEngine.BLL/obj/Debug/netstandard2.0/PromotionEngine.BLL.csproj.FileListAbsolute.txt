@@ -9,3 +9,4 @@ E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\obj\Debug\netstandard2.0\P
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.Entity.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.Entity.pdb
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\obj\Debug\netstandard2.0\PromotionEngine.BLL.csproj.CopyComplete
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\obj\Debug\netstandard2.0\PromotionEngine.BLL.csprojAssemblyReference.cache
