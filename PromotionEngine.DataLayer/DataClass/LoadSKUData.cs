@@ -36,7 +36,15 @@ namespace PromotionEngine.DataLayer
         /// <returns>returns list of all available SKUs</returns>
         public List<SKUEntity> GetAllSKUs()
         {
-            throw new NotImplementedException();
+            List<SKUEntity> lstSKU = new List<SKUEntity>();
+
+            foreach (var item in objLoadData.GetSection(EngineHelper.SKU).GetChildren())
+            {
+                SKUEntity product = new SKUEntity();
+                objLoadData.GetSection(item.Path).Bind(product);
+                lstSKU.Add(product);
+            }
+            return lstSKU;
         }
 
         /// <summary>
@@ -45,7 +53,14 @@ namespace PromotionEngine.DataLayer
         /// <returns>List of available promotion types</returns>
         public List<PromotionTypeEntity> GetAllAvailablePromotionTypes()
         {
-            throw new NotImplementedException();
+            List<PromotionTypeEntity> lstPromotionTypes = new List<PromotionTypeEntity>();
+            foreach (var item in objLoadData.GetSection(EngineHelper.Promotion_Types).GetChildren())
+            {
+                PromotionTypeEntity objProduct = new PromotionTypeEntity();
+                objLoadData.GetSection(item.Path).Bind(objProduct);
+                lstPromotionTypes.Add(objProduct);
+            }
+            return lstPromotionTypes;
         }
    }   
 }

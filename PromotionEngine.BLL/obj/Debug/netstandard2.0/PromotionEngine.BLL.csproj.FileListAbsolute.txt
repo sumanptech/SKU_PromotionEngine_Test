@@ -12,3 +12,7 @@ E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\obj\Debug\netstandard2.0\P
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\obj\Debug\netstandard2.0\PromotionEngine.BLL.csprojAssemblyReference.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.BLL\bin\Debug\netstandard2.0\PromotionEngine.Logging.pdb
