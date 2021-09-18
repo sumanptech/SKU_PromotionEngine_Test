@@ -31,7 +31,9 @@ namespace PromotionEngine
             Console.WriteLine("\n Please Provide Your Input");
             objCart = ReadSKUInput();
             Console.WriteLine("\n Applying Promotions...");
-            objPromotion = ApplyPromotions(objCart);           
+            objPromotion = ApplyPromotions(objCart);
+            Console.WriteLine("\n Thanks for your Patience, Calculating Final Price For You");
+            CalculateCheckoutPrice(objPromotion);
             Console.ReadKey();
         }
 
@@ -83,6 +85,31 @@ namespace PromotionEngine
                 LogInfo.LogMessage("Error while applying promotions in #ApplyPromotions#: " + ex.Message);
             }
             return objPromotion;
+        }
+
+        /// <summary>
+        /// Calculate Final Checkout Price
+        /// </summary>
+        /// <returns>return 'true' if price calculated successfully</returns>
+        public bool CalculateCheckoutPrice(PromotionApplied objPromotion)
+        {
+            bool retVal = false;
+            try
+            {
+                Console.WriteLine(" SKU-ID" + " | " + "SKU-Unit" + " | " + "FinalPrice" + " | " + "PromotionApplied");
+                foreach (var item in objPromotion.CartCheckout)
+                {
+                    Console.WriteLine(" " + item.SKU_ID + " . . . . " + item.SKU_Unit + " . . . . . " + item.SKU_FinalPrice + " . . . . " + (item.HasOffer == true ? "Yes" : "No"));
+                }
+                Console.WriteLine(" Checkout Price After Applying Promotions is: " + objPromotion.CheckoutPrice);
+                retVal = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error while Applying Promotions, Please Reach to Administrator");
+                LogInfo.LogMessage("Error while applying promotions in #CalculateCheckoutPrice#: " + ex.Message);
+            }
+            return retVal;
         }
 
     }
