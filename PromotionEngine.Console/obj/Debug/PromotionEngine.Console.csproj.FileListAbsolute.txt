@@ -1,0 +1,7 @@
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\bin\Debug\PromotionEngine.Console.exe.config
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\bin\Debug\PromotionEngine.Console.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\bin\Debug\PromotionEngine.Console.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\obj\Debug\PromotionEngine.Console.csprojAssemblyReference.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\obj\Debug\PromotionEngine.Console.csproj.CoreCompileInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\obj\Debug\PromotionEngine.Console.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.Console\obj\Debug\PromotionEngine.Console.pdb

@@ -1,13 +1,12 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Test.PromotionEngine
 {
     [TestClass]
-    public class UnitTest1
+    public class TestPromotionEngine
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Scenario0_NoSKUs()
         {
         }
     }

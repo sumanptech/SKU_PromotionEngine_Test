@@ -1,0 +1,7 @@
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\PromotionEngine.ExceptionAndLogging.exe.config
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\PromotionEngine.ExceptionAndLogging.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\bin\Debug\PromotionEngine.ExceptionAndLogging.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\PromotionEngine.ExceptionAndLogging.csprojAssemblyReference.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\PromotionEngine.ExceptionAndLogging.csproj.CoreCompileInputs.cache
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\PromotionEngine.ExceptionAndLogging.exe
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.ExceptionAndLogging\obj\Debug\PromotionEngine.ExceptionAndLogging.pdb
