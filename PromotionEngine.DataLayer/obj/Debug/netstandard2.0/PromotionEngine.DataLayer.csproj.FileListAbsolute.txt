@@ -3,9 +3,13 @@ E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandar
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.DataLayer.pdb
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.AssemblyInfoInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.AssemblyInfo.cs
-E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.csproj.CoreCompileInputs.cache
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.pdb
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.Entity.dll
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.Entity.pdb
 E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.csproj.CopyComplete
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.Logging.dll
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.HelperModule.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\bin\Debug\netstandard2.0\PromotionEngine.Logging.pdb
+E:\Maersk_Sep2021\PromotionEngine\PromotionEngine.DataLayer\obj\Debug\netstandard2.0\PromotionEngine.DataLayer.csprojAssemblyReference.cache

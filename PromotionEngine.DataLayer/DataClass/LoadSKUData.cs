@@ -1,7 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Extensions.Configuration;
 using PromotionEngine.Entity;
+using PromotionEngine.HelperModule;
+using PromotionEngine.Logging;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace PromotionEngine.DataLayer
 {
@@ -10,9 +13,21 @@ namespace PromotionEngine.DataLayer
     /// </summary>
     class LoadSKUData : ILoadSKUData
     {
+        IConfiguration objLoadData;
         public LoadSKUData()
         {
-
+            try
+            {
+                //base path for Datastore (SKUData.JSON) at the moment is "....Promotion_Engine\SKU_PromotionEngine\PromotionEngine.User\bin\Debug"
+                //which can be changed by changing the base path and Introducing new path via configuration file 
+                var objJsonFile = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile(EngineHelper.DataSourceName, false);
+                objLoadData = objJsonFile.Build();
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogMessage("Error while Loading Data Source :" + ex.Message);
+            }
         }
 
         /// <summary>
