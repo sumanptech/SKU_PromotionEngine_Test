@@ -93,7 +93,8 @@ namespace PromotionEngine
             bool retVal = false;
             try
             {
-                Console.WriteLine(" SKU-ID" + " | " + "SKU-Unit" + " | " + "FinalPrice" + " | " + "PromotionApplied");
+               Console.WriteLine();
+               Console.WriteLine(" SKU-ID" + " | " + "SKU-Unit" + " | " + "FinalPrice" + " | " + "PromotionApplied");
                 foreach (var item in objPromotion.CartCheckout)
                 {
                     Console.WriteLine(" " + item.SKU_ID + " . . . . " + item.SKU_Unit + " . . . . . " + item.SKU_FinalPrice + " . . . . " + (item.HasOffer == true ? "Yes" : "No"));
